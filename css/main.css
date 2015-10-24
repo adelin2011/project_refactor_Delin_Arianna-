@@ -61,7 +61,7 @@ a {
 /* Logo */
 
 #logo {
-    width: 300px;
+    width: 100%;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
@@ -101,17 +101,14 @@ a {
 /* Menu */
 
 #menu {
-    width: 500px;
-    height: 90px;
-    margin: 0 auto;
+    width: 100%;
+    margin: auto;
     padding: 0;
 }
 
 #menu ul {
     margin: 0;
-    padding: 20px 0px 0px 0px;
     list-style: none;
-    line-height: normal;
 }
 
 #menu li {
@@ -120,9 +117,8 @@ a {
 
 #menu a {
     display: block;
-    line-height: 100px;
     margin-right: 1px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 10px 10px 0px;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
