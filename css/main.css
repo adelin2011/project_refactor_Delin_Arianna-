@@ -208,8 +208,7 @@ a {
 /* Sidebar */
 
 #sidebar {
-    width: 270px;
-    margin: 0px;
+    width: 100%;
     padding: 30px 0px 0px 0px;
 }
 
