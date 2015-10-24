@@ -56,6 +56,12 @@ a {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
 
+@media all and (min-width: 330px){
+    nav li {
+        width: 49%;
+    }
+}
+
 .container {
     margin: 0px auto;
 }
@@ -219,6 +225,17 @@ a {
 }
 
 /* Sidebar */
+
+@media (min-width: 400px){
+    #sidebar{
+        width: calc(100%/3-2);
+    }
+    #sidebar{
+        float: right; 
+        width: calc(100%/3); 
+    }
+}
+
 
 #sidebar {
     width: 100%;
