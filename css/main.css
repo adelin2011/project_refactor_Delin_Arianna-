@@ -260,10 +260,11 @@ a {
 
 #sidebar {
     width: 40%;
-    padding: 30px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     background: #FAEBD7;
     float: right;
     margin: auto;
+    margin-top: 5px; 
 }
 
 #sidebar ul {
